@@ -2,6 +2,7 @@ from processor_regex import classify_with_regex
 from processor_bert import classify_with_bert
 from processor_llm import classify_with_llm
 
+
 def classify(logs):
     labels = []
     for source, log_msg in logs:
